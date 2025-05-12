@@ -1,0 +1,78 @@
+
+
+
+.thumbnail{
+ width: 100%;
+}
+
+.grid{
+  display: grid;
+ grid-template-columns: 50px 1fr;
+}
+
+.propic{
+  width: 40px;
+  border-radius: 50px;
+
+}
+.person,.date{
+  color:rgb(96, 96, 96);
+  font-size: 12px;
+  font-weight: lighter;
+ 
+  
+}
+.everything{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 14px;
+  
+
+}
+.card{
+  margin-bottom: 30px;
+}
+  
+
+.info{
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.thumb{
+  margin-bottom: 8px;
+  position: relative;
+}
+
+
+.channel-pic{
+  display:inline-block;
+  width: 36px;
+  border-radius:50px;
+  vertical-align: top;
+}
+
+.para-info{
+
+font-size: 14px;
+font-weight: bold;
+
+}
+.video-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  border-radius: 1px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: Roboto,Arial;
+
+
+  
+  
+}
